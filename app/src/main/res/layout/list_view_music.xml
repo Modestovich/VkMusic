@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="100sp">
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginStart="15dip"
+            >
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/song_name"
+                  android:textColor="@color/vk_black"
+                  android:textSize="25sp"
+                />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/artist_name"
+                  android:layout_below="@+id/song_name"
+                  android:textColor="@color/dark_gray"
+                  android:textSize="20sp"
+                />
+    </RelativeLayout>
+    <ImageView
+            android:id="@+id/player_playing"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/song_duration"
+            android:contentDescription="@string/playing_song"
+            android:src="@drawable/current"
+            />
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/song_duration"
+              android:textColor="@color/vk_black"
+              android:textSize="20sp"
+              android:layout_centerVertical="true"
+              android:layout_alignParentEnd="true"
+              android:paddingEnd="20sp"
+            />
+
+</RelativeLayout>

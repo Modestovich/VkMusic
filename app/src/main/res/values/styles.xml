@@ -1,0 +1,39 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+    <style name="buttonStartUp" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/vk_white</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <!--<item name="android:background">@drawable/startup_button</item>-->
+    </style>
+    <style name="textStartUp" parent="Widget.AppCompat.Light.AutoCompleteTextView">
+        <item name="android:textSize">75sp</item>
+        <item name="android:textColor">@color/vk_white</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="ProgressBarStyling" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:minHeight">50dip</item>
+        <item name="android:maxHeight">150dip</item>
+        <item name="android:minWidth">300dip</item>
+        <item name="android:progress">0</item>
+        <item name="android:max">100</item>
+        <item name="android:progressDrawable" >@drawable/progress_bar_style</item>
+    </style>
+    <style name="TextInProgress" parent="Widget.AppCompat.Light.AutoCompleteTextView">
+        <!--<item name="android:layout_alignTop">@+id/startUpBar</item>-->
+        <!--<item name="android:baselineAligned">@+id/startUpBar</item>-->
+        <!--<item name="android:layout_alignBottom">@+id/startUpBar</item>-->
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:text">@string/progressStartUp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">@dimen/progressTextSize</item>
+    </style>
+    <style name="PlayerHeaderControlsButtons" parent="Widget.AppCompat.ActionButton">
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:centerColor">@android:color/transparent</item>
+        <item name="android:singleLine">true</item>
+    </style>
+</resources>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">VkMusic</string>
+
+    <string name="LogOut">LogOut</string>
+    <string name="LogIn">login</string>
+    <string name="StartUpSign">Mody</string>
+    <string name="ClickToContinue">Click to continue</string>
+
+    <integer name="com_vk_sdk_AppId">5021459</integer>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="progressStartUp">0%</string>
+    <string name="modyStartUp">MODY</string>
+
+    <!-- List Page -->
+    <string name="title_activity_list">ListActivity</string>
+    <string name="Login">Login</string>
+    <string name="type_your_login">Type your login</string>
+    <string name="enter">Enter</string>
+    <string name="title_activity_player">PlayerActivity</string>
+
+    <!-- Player controls -->
+    <string name="BackButton">Back</string>
+    <string name="player_previous_song">Prev</string>
+    <string name="player_play">play</string>
+    <string name="player_pause">pause</string>
+    <string name="player_next_song">next</string>
+
+    <!-- Player actions -->
+    <string name="player_next_random">Random</string>
+    <string name="player_next_simple">Simple</string>
+    <string name="player_repeat_single">Repeat single</string>
+    <string name="player_repeat_all">Repeat all</string>
+    <string name="player_repeat_no_repeat">Don\'t repeat</string>
+    <string name="player_lyrics_hide">Hide lyrics</string>
+    <string name="player_lyrics_show">Show lyrics</string>
+    <string name="playing_song">Currently playing song</string>
+    <string name="search_hint">Search</string>
+    <string name="scrollToTop">Scroll to top</string>
+</resources>

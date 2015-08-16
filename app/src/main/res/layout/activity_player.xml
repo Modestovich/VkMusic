@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/player_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="mody.vkmusic.PlayerActivity">
+    <fragment
+            android:name="mody.vkmusic.Fragments.PlayerHeader"
+            android:id="@+id/headerFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            tools:layout="@layout/fragment_player_header"
+            android:layout_above="@+id/musicSwitchBar"
+            />
+
+    <fragment
+            android:name="mody.vkmusic.Fragments.MusicSwitchControls"
+            android:id="@+id/musicSwitchBar"
+            tools:layout="@layout/fragment_music_switch_controls"
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:layout_above="@+id/volumeBarFragment"
+            />
+
+    <fragment
+            android:name="mody.vkmusic.Fragments.VolumeControls"
+            android:id="@+id/volumeBarFragment"
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            tools:layout="@layout/fragment_player_volume"
+            android:layout_alignParentBottom="true"/>
+</RelativeLayout>
