@@ -353,16 +353,3 @@ public final class MusicPlayer {
         return canSeek&&player.getCurrentPosition()<player.getDuration();
     }
 }
-
-/**
- Errors of mediaPlayer
- 07-18 07:27:13.935    6116-6116/com.example.modyapp.app I/Error IO? -1004
- 07-18 07:27:13.939    6116-6116/com.example.modyapp.app I/Error MALFORMED? -1007
- 07-18 07:27:13.955    6116-6116/com.example.modyapp.app I/Error ProgressPlay? 200
- 07-18 07:27:13.959    6116-6116/com.example.modyapp.app I/Error SERVER DIED? 100
- 07-18 07:27:13.967    6116-6116/com.example.modyapp.app I/Error UNKNOWN? 1
- 07-18 07:27:13.971    6116-6116/com.example.modyapp.app I/Error Timeout? -110
- 07-18 07:27:13.983    6116-6116/com.example.modyapp.app I/Error UNSupported? -1010
- 07-18 07:27:13.991    6116-6116/com.example.modyapp.app I/Media's not seekable? 801
- 07-18 07:27:13.991    6116-6116/com.example.modyapp.app I/Media bad interleaving? 800
- */
